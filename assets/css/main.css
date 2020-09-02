@@ -2819,6 +2819,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: url("../../images/wrapper-bg.jpg");
+
 			background-size: cover;
 			color: #c8ece9;
 		}
@@ -4006,4 +4007,19 @@ input, select, textarea {
 		background-image: url("../../images/aboutme-bg.jpg");
 		background-size: cover;
 		/*Background: rgba(29, 36, 42);*/
+	}
+	.aboutme #wrapper{
+		height: 100%;
+		display: flex;
+	}
+
+	#firstColumn{
+		margin: 4em;
+		width: 60%;
+		height: 100%;
+	}
+	#secondColumn{
+		margin: 4em;
+		width: 40%;
+		height: 100%;
 	}
