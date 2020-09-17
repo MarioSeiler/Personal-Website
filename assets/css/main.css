@@ -2854,7 +2854,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #fff;
 			}
 
 			.wrapper.style1 label {
@@ -4004,6 +4004,8 @@ input, select, textarea {
 
 	.aboutme{
 
+		line-height: 2.5;
+
 		height: 100vh;
 		background-image: url("../../images/aboutme-bg.jpg");
 		background-size: cover;
@@ -4030,8 +4032,19 @@ input, select, textarea {
 	}
 	.image img{
 		width: 20px;
+		
 	}
 	.main {
 		border-bottom: lightgray 1px solid;
+	}
+	#secondColumn{
+		height: 100%;
+	}
+	.portrait img{
+
+		height: 600px;
+
+		object-fit: cover;
+
 	}
 
